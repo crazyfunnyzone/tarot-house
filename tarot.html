@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>塔罗牌占卜 - 神秘占卜屋</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tarot.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <div class="container">
+        <h1>塔罗牌占卜</h1>
+        <div class="tarot-container">
+            <div class="question-section">
+                <input type="text" id="question" placeholder="请输入你想问的问题">
+                <button onclick="drawCards()">抽取塔罗牌</button>
+            </div>
+            <div id="cards-container" class="cards-container"></div>
+            <div id="reading-result" class="reading-result"></div>
+        </div>
+        <a href="index.html" class="back-button">返回首页</a>
+    </div>
+    <script src="tarot.js"></script>
+</body>
+</html> 
